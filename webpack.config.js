@@ -1,7 +1,7 @@
-const HtmlWebPackPlugin = require("html-webpack-plugin")
+const HtmlWebPackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-    devtool: "source-map",
+    devtool: 'source-map',
     entry: "./src/index.js",
     module: {
         rules: [
